@@ -1,0 +1,37 @@
+{
+    "data": {
+        "profile": {
+            "name": "I am Danny Falcon",
+            "detail": "I am a Web Developer located in Hartford, Connecticut. I currently work as a part time Remote Junior Web Developer for Coolor, located in Las Vegas. I am looking to take on more work and to increase my skills as a Web Developer.",
+            "phone": "123451676",
+            "address": "xyz",
+            "email": "rikhikanchan123@gmail.com",
+        },
+        "Skills": {
+            "title": "Skills",
+            "details": "I am inspired by creating great work with people who are as passionate as I am about building something awesome.",
+            "skill": [
+                {
+                    "tilte": "Web Development",
+                    "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
+                },
+                {
+                    "tilte": "Frontend Development",
+                    "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
+                },
+                {
+                    "tilte": "UI\UX Design",
+                    "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
+                },
+                {
+                    "tilte": "Consulting & SEO Audit",
+                    "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
+                }
+            ]
+        },
+        "experience": {
+            "tilte": "Consulting & SEO Audit",
+            "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
+        }
+    }
+}
