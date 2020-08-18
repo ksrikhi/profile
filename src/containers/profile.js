@@ -32,7 +32,7 @@ const Profile = (props) => {
                     <Flex>
                         <Box width={1 / 4}>Social</Box>
                           <Facebook size="14px" />
-                          <Twitter />
+                          <Twitter size="14px"/>
                           <Instagram />
                           <Linkedin />
                           <Behance />
