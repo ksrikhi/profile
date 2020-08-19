@@ -1,14 +1,12 @@
 import React from 'react';
 import MainSection from '../component/mainSection';
-import { Box, Flex } from 'rebass';
+import { Box, Flex, Image } from 'rebass';
 import H1 from '../component/h1';
 import Detail from '../component/detail';
-import {Facebook} from '@styled-icons/boxicons-logos/Facebook';
-import {Twitter} from '@styled-icons/boxicons-logos/Twitter';
-import {Instagram} from '@styled-icons/boxicons-logos/Instagram';
-import {Linkedin} from '@styled-icons/boxicons-logos/Linkedin';
-import {Behance} from '@styled-icons/entypo-social/Behance';
-
+import Icon from '../component/socialicons';
+import Button from '../component/btn.js';
+import LabelDetail from '../component/labeldetail';
+import ProfileLabel from '../component/profilelabel';
 
 const Profile = (props) => {
     return (
@@ -18,29 +16,27 @@ const Profile = (props) => {
                     <H1>{props.data.name} </H1>
                     <Detail>{props.data.detail}</Detail>
                     <Flex>
-                        <Box width='90px'>Phone</Box>
-                        <Box>{props.data.phone}</Box>
+                        <ProfileLabel label="Phone" />
+                        <LabelDetail label={props.data.phone}> </LabelDetail>
                     </Flex>
                     <Flex>
-                        <Box width={1 / 4}>Address</Box>
-                        <Box>{props.data.address}</Box>
+                        <ProfileLabel label="Address" />
+                        <LabelDetail label={props.data.address}> </LabelDetail>
                     </Flex>
                     <Flex>
-                        <Box width={1 / 4}>Email</Box>
-                        <Box>{props.data.email}</Box>
+                        <ProfileLabel label="Email" />
+                        <LabelDetail label={props.data.email}> </LabelDetail>
                     </Flex>
                     <Flex>
-                        <Box width={1 / 4}>Social</Box>
-                          <Facebook size="14px" />
-                          <Twitter size="14px"/>
-                          <Instagram />
-                          <Linkedin />
-                          <Behance />
+                        <ProfileLabel label="Social" />
+                        <Icon />
                     </Flex>
+                    <Button primary>CONTECT ME</Button>
+                     <Button >DOWNLOAD CV</Button>
                      </Box>
 
                 <Box width={[1, 1, 1 / 2, 1 / 2]} order={[1, 1, 2, 2]}>
-                    <h1>yjhjhjh</h1>
+                <Image src="assest/img.jpg"  alt="profile image" mb={['20px','20px',0]} />
                 </Box>
             </Flex>
 

@@ -45,7 +45,7 @@ export default function SingleLineGridList() {
 
         </Grid>
         <Grid item xs={4}>
-          <img src="./assest/profile.jpg" className="image" alt="img" />
+          <image src="./assest/profile.jpg" className="image" alt="img" />
         </Grid>
         <Button></Button>
       </Grid>
