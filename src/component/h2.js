@@ -8,6 +8,7 @@ const H2 = ({ children }) => {
         lineHeight={['1.1','1.4','1.5']}
         fontWeight={['500','500','700']}
         fontFamily= 'sans-serif' 
+       style={{borderBottom:'1px solid #e3e3e3'}}
         >
        {children}
       </Heading>

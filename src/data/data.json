@@ -6,10 +6,7 @@
         "address": "#45, Bartonville york,west,ON",
         "email": "rikhikanchan123@gmail.com"
     },
-    "Skills": {
-        "title": "Skills",
-        "details": "I am inspired by creating great work with people who are as passionate as I am about building something awesome.",
-        "skillSet": [
+    "skills": [
             {
                 "title": "Web Development",
                 "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
@@ -26,10 +23,26 @@
                 "title": "Consulting & SEO Audit",
                 "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
             }
-        ]
+        ],
+    "Experience":[ 
+      {
+        "title": "Frontend Development",
+        "subtitle":"Coolor Studio",
+        "Date":"april,28",
+        "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
     },
-    "experience": {
-        "title": "Consulting & SEO Audit",
+    {
+        "title": " Middle Frontend Development",
+        "subtitle":"Illskill Agency ",
+        "Date":"Jan, 2013 — May, 2014",
+        "details": "Leading a small team on a variety of development projects and delivering solutions to meet and exceed clients’ briefs."
+    },
+    {
+        "title": "IT SPecialist",
+        "subtitle":"Motion Studio",
+        "Date":"april,28",
         "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
     }
+
+    ]
 }

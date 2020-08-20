@@ -7,7 +7,7 @@ const Layout = () => {
     return (
         <>
           <Profile data={data.profile} />
-          <Skills data={data.Skills} />
+          <Skills data={data.skills} />
         </>
     );
 };

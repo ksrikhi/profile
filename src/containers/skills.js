@@ -1,15 +1,15 @@
 import React from 'react';
 import MainSection from '../component/mainSection';
-import { Box, Flex } from 'rebass';
+import { Flex } from 'rebass';
 import H2 from '../component/h2';
 import SkillSet from '../component/skillset';
 
 const Skills = ({ data }) => {
     return (
         <MainSection>
-            <H2>{data.title}</H2>
+            <H2>skill</H2>
             <Flex flexDirection={['column', 'column' ,'row']} flexWrap='wrap' mx={-2}>
-                {data.skillSet.map(skill => (
+                {data.map(skill => (
                     <SkillSet data={skill} />
                 ))}
             </Flex>
