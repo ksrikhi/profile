@@ -9,27 +9,27 @@
     "Skills": {
         "title": "Skills",
         "details": "I am inspired by creating great work with people who are as passionate as I am about building something awesome.",
-        "skill": [
+        "skillSet": [
             {
-                "tilte": "Web Development",
+                "title": "Web Development",
                 "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
             },
             {
-                "tilte": "Frontend Development",
+                "title": "Frontend Development",
                 "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
             },
             {
-                "tilte": "UI\\UX Design",
+                "title": "UI\\UX Design",
                 "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
             },
             {
-                "tilte": "Consulting & SEO Audit",
+                "title": "Consulting & SEO Audit",
                 "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
             }
         ]
     },
     "experience": {
-        "tilte": "Consulting & SEO Audit",
+        "title": "Consulting & SEO Audit",
         "details": "Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
     }
 }
