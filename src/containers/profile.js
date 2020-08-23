@@ -32,11 +32,11 @@ const Profile = (props) => {
                         <Icon />
                     </Flex>
                     <Button primary>CONTECT ME</Button>
-                     <Button >DOWNLOAD CV</Button>
-                     </Box>
+                    <Button >DOWNLOAD CV</Button>
+                </Box>
 
                 <Box width={[1, 1, 1 / 2, 1 / 2]} order={[1, 1, 2, 2]}>
-                <Image src="assest/img.jpg"  alt="profile image" mb={['20px','20px',0]} />
+                    <Image src="assest/img.jpg" alt="profile image" mb={['20px', '20px', 0]} />
                 </Box>
             </Flex>
 

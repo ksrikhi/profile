@@ -4,10 +4,10 @@ import { Flex } from 'rebass';
 import H2 from '../component/h2';
 import LearningSkill from '../component/edu';
 
-const Education = ({ data }) => {
+const Experience = ({ data }) => {
     return (
         <MainSection>
-            <H2>Education</H2>
+            <H2>Experience</H2>
             <Flex flexWrap='wrap' mx={-2}>
                 {data.map(skill => (
                     <LearningSkill data={skill} />
@@ -17,4 +17,4 @@ const Education = ({ data }) => {
     );
 };
 
-export default  Education;
+export default Experience;
