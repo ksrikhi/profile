@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from 'rebass';
 import H4 from './h4';
-import DetailCard from './detailcard';
+import DetailCard from './detailCard';
 
 const SkillSet = ({ data: { title, details } }) => {
     return (

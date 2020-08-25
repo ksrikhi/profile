@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import MainSection from '../component/mainSection';
 import { Box, Flex, Image } from 'rebass';
 import H1 from '../component/h1';
@@ -7,8 +7,11 @@ import Icon from '../component/socialicons';
 import Button from '../component/btn.js';
 import LabelDetail from '../component/labeldetail';
 import ProfileLabel from '../component/profilelabel';
+import Modalcard from '../component/contentModelCard';
 
 const Profile = (props) => {
+    const [isOpen, setIsOpen] = useState(false);
+    debugger;
     return (
         <MainSection>
             <Flex flexDirection={['column', 'column', 'row']}>
@@ -31,15 +34,16 @@ const Profile = (props) => {
                         <ProfileLabel label="Social" />
                         <Icon />
                     </Flex>
-                    <Button primary>CONTECT ME</Button>
-                    <Button >DOWNLOAD CV</Button>
+                    <Button primary onClick={() => setIsOpen(true)}>CONTECT ME</Button>
+                    <a href='assest/Kanchan Resume.pdf' download style={{ color: 'inherit', textTransform: 'none' }}>
+                        <Button> DOWNLOAD CV</Button> </a>
                 </Box>
 
                 <Box width={[1, 1, 1 / 2, 1 / 2]} order={[1, 1, 2, 2]}>
                     <Image src="assest/img.jpg" alt="profile image" mb={['20px', '20px', 0]} />
                 </Box>
             </Flex>
-
+           {isOpen && <Modalcard isClose={setIsOpen}/>}
         </MainSection>
     );
 };

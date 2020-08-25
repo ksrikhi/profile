@@ -4,7 +4,7 @@ const Button = styled.button`
 background: ${props => props.primary ? "#3333ff" : "#efefef"};
 color: ${props => props.primary ? "white" : "black"};
 
-margin-top: 20px;
+margin-top: 20px;   
 margin-right: 30px;
 font-size: 12px;
 font-weight: 700;
@@ -19,6 +19,9 @@ border: none;
 border-radius: 2px;
 &:hover { 
     box-shadow: 10px 10px 20px rgba(51, 51, 255, 0.2);
+  };
+  &:focus {
+    outline: none;
   }
 
 `;

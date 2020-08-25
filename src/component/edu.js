@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Flex } from 'rebass';
 import H4 from './h4';
-import DetailCard from './detailcard';
+import DetailCard from './detailCard';
 
 const LearningSkill = ({ data: { title, details, subtitle, date } }) => {
     return (

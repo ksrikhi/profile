@@ -1,6 +1,6 @@
 import React from 'react';
-import { Box, Image } from 'rebass';
-import DetailCard from './detailcard';
+import { Box } from 'rebass';
+import DetailCard from './detailCard';
 import ProjectImg from './projectimg';
 
 const ProjectDetail = ({ data: { date, image, title } }) => {
