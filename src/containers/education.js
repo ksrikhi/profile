@@ -10,7 +10,7 @@ const Education = ({ data }) => {
             <H2>Education</H2>
             <Flex flexWrap='wrap' mx={-2}>
                 {data.map(skill => (
-                    <LearningSkill data={skill} />
+                    <LearningSkill  key={skill.title} data={skill} />
                 ))}
             </Flex>
         </MainSection>

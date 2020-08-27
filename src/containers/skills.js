@@ -10,7 +10,7 @@ const Skills = ({ data }) => {
             <H2>skill</H2>
             <Flex flexDirection={['column', 'column' ,'row']} flexWrap='wrap' mx={-2}>
                 {data.map(skill => (
-                    <SkillSet data={skill} />
+                    <SkillSet key={skill.title} data={skill} />
                 ))}
             </Flex>
         </MainSection>

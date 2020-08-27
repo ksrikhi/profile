@@ -8,10 +8,10 @@ import Button from '../component/btn.js';
 import LabelDetail from '../component/labeldetail';
 import ProfileLabel from '../component/profilelabel';
 import Modalcard from '../component/contentModelCard';
+import profileImage from '../images/img.jpg';
 
 const Profile = (props) => {
     const [isOpen, setIsOpen] = useState(false);
-    debugger;
     return (
         <MainSection>
             <Flex flexDirection={['column', 'column', 'row']}>
@@ -40,7 +40,7 @@ const Profile = (props) => {
                 </Box>
 
                 <Box width={[1, 1, 1 / 2, 1 / 2]} order={[1, 1, 2, 2]}>
-                    <Image src="assest/img.jpg" alt="profile image" mb={['20px', '20px', 0]} />
+                    <Image src={profileImage} alt="profile image" mb={['20px', '20px', 0]} />
                 </Box>
             </Flex>
            {isOpen && <Modalcard isClose={setIsOpen}/>}

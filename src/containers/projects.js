@@ -10,7 +10,7 @@ const Project = ({ data }) => {
             <H2>Projects</H2>
             <Flex flexDirection={['column', 'column' ,'row']} flexWrap='wrap' mx={-2}>
                 {data.map(project => (
-                    <ProjectDetail data={project} />
+                    <ProjectDetail key={project.title} data={project} />
                 ))}
             </Flex>
         </MainSection>
