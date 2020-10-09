@@ -35,7 +35,7 @@ const Profile = (props) => {
                         <Icon />
                     </Flex>
                     <Button primary onClick={() => setIsOpen(true)}>CONTECT ME</Button>
-                    <a href='assest/Kanchan Resume.pdf' download style={{ color: 'inherit', textTransform: 'none' }}>
+                    <a href='assest/Kanchan_resume.pdf' download style={{ color: 'inherit', textTransform: 'none' }}>
                         <Button> DOWNLOAD CV</Button> </a>
                 </Box>
 

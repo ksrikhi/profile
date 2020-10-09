@@ -8,20 +8,20 @@
     },
     "skills": [
         {
-            "title": "Web Development",
-            "details": " Node.js, MongoDB,Express ."
+            "title": "Frontend Development",
+            "details": "Html, Css,React Native, React JS, Rebass, Styled system, styled component, style Icon, Javascript, ECMA6, Angular js, Typescript, Angular material, Bootstrap material,"
         },
         {
-            "title": "Frontend Development",
-            "details": "Html,Css,Style system, style component, style Icon, Javascript, ECMA6, Bootstrap material, Angular js, Typescript,Angular material, React JS, Rebass"
+            "title": "Backend Development",
+            "details": "Node.js, MongoDB, Express, NodeMail, pdf"
         },
         {
             "title": "Tools",
-            "details": " Visual studio, Eclipse, Atom, Sublime."
+            "details": "Visual studio, Eclipse, Atom, Sublime , Github."
         },
         {
             "title": "Plateform",
-            "details": "window, mac"
+            "details": "Window's, Mac"
         }
     ],
     "education": [
@@ -47,7 +47,7 @@
             "title": "Frontend Development",
             "subtitle": "Freelance",
             "date": "June, 2018 - Present",
-            "details": "Javascript, vue js, angular js, react js"
+            "details": "Javascript, ECMA6, angular, react.js, react native, vue.js"
         },
         {
             "title": "IT Recuiter ",
