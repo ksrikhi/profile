@@ -1,4 +1,13 @@
-My developer profile [Front end developer](https://ksrikhi.github.io/profile).
+My developer profile, please click here to visit [My Front end developer profile ](https://ksrikhi.github.io/profile).
+I have created this project to showcase my skills 
+
+### `My Skillset`
+
+ HTML, CSS, React Native, React JS, Rebass, Styled system, Styled component, Style Icon, Javascript, ECMA6, Angular js, Typescript, Angular material, Bootstrap material, React Native Element.
+
+### `Deployment`
+
+Deployed this project using github pages.
 
 ## Available Scripts
 
