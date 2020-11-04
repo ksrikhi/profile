@@ -1,4 +1,13 @@
 {
+    "metaDetails": {
+        "author": "Kanchan Sharma",
+        "description": "Frontend developer with 3 years of experience.",
+        "keywords": "Html, Css,React Native, React JS, Rebass, Styled system, styled component, style Icon, Javascript, ECMA6, Angular js, Typescript, Angular material, Bootstrap materia",
+        "profileUsername": "ksrikhi",
+        "url": "https://ksrikhi.github.io/profile",
+        "title": "Kanchan Sharma - Frontend Developer",
+        "icon" : "assest/icon.ico"
+    },
     "profile": {
         "name": "I am Kanchan Sharma",
         "detail": "I am a Web Developer located in Toronto, Canada. I currently work as a part time Remote Junior Web Developer. I am looking to take on more work and togrowth of my carrier and where I can prove myself as a Web Developer.",
@@ -63,20 +72,20 @@
         }
     ],
     "project": [
-        { 
-            "image":"assest/img.PNG",
-            "title": "Hybrid Invoice Genration App",
-            "date": "september, 2020"
-              },
         {
-            "image":"assest/recruiter-front.PNG",
-            "title": "Health Through Eye's Design",
-            "date": "june,2020"
+            "image": "assest/img.PNG",
+            "title": "Node.js pdf Invoice Genration and send mail app",
+            "date": "march, 2020"
         },
         {
-            "image":"assest/webpage.jpg",
-            "title": "Blog web app",
-            "date": "june,2013"
+            "image": "assest/recruiter-front.PNG",
+            "title": "Health Through Eye's website development",
+            "date": "june,2019"
+        },
+        {
+            "image": "assest/dynamicInvoice.jpg",
+            "title": "Hybrid mobile app using react native",
+            "date": "september,2020"
         }
     ]
 }

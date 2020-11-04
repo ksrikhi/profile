@@ -8,7 +8,7 @@ import Button from '../component/btn.js';
 import LabelDetail from '../component/labeldetail';
 import ProfileLabel from '../component/profilelabel';
 import Modalcard from '../component/contentModelCard';
-import profileImage from '../images/img.jpg';
+import profileImage from '../images/img.PNG';
 
 const Profile = (props) => {
     const [isOpen, setIsOpen] = useState(false);
