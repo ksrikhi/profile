@@ -5,7 +5,7 @@ import DetailCard from './detailCard';
 
 const LearningSkill = ({ data: { title, details, subtitle, date } }) => {
     return (
-        <Box width={[1]} px={2} py={2}>
+        <Box  data-testid='learning-skill' width={[1]} px={2} py={2}>
             <Flex flexDirection={['column']}>
                 <Flex>
                     <H4 display="inline-block" mr="10px">{title}</H4>
